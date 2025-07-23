@@ -5,3 +5,33 @@
   font-family: "Noto Serif", serif;
   box-sizing: border-box;
 }
+.max-width {
+  max-width: 1240px;
+  margin: auto;
+}
+
+/* header */
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #8987a1;
+  padding-left: 30px;
+}
+nav ul a:nth-child(1),
+nav li :nth-child(4) {
+  color: #252432;
+}
+
+/* Media Query */
+@media screen and (max-width: 576px) {
+}
