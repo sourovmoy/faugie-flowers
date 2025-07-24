@@ -197,6 +197,62 @@ nav ul li:nth-last-child(4) a {
   background-image: url("images/deal-ana.png");
   height: 210px;
 }
+/* colorfulbrunch */
+
+.colorful-brunch {
+  background-image: url(images/news-letter-bg.png);
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  height: 533px;
+  position: relative;
+}
+
+.colorful-brunch h2 {
+  font-size: 3.125rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.colorful-brunch form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* footer-nav */
+.footer-nav {
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  margin: 100px auto;
+  gap: 50px;
+}
+.footer-nav .left {
+  flex: 1;
+}
+.footer-nav .left p {
+  font-size: 1.25rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+.footer-nav .middle ul {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+.middle ul li {
+  list-style: none;
+}
+.middle ul li a {
+  text-decoration: none;
+  color: #6b7280;
+}
+
+.footer-nav .right {
+  flex: 1;
+  padding-left: 20px;
+}
 
 /* Media Query */
 @media screen and (max-width: 576px) {
