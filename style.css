@@ -12,6 +12,13 @@
 .text-color {
   color: #e95a08;
 }
+.btn1 {
+  background: #e95a08;
+  color: #ffffff;
+  padding: 15px 80px;
+  font-weight: 600px;
+  font-size: 1rem;
+}
 
 /* header */
 header nav {
@@ -54,12 +61,30 @@ nav ul li:nth-last-child(4) a {
 
 /* main */
 /* our plans */
-main {
+.our-plans {
   text-align: center;
+  margin-top: 100px;
+  align-items: center;
 }
-main h3 {
+.our-plans h3 {
   font-size: 3.125rem;
   font-weight: 700;
+  margin: 20px auto;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-top: 50px;
+}
+.cards h4 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.cards h5 {
+  font-size: 1.375rem;
+  font-weight: 700;
+  margin: 10px auto;
 }
 
 /* Media Query */
@@ -69,7 +94,7 @@ main h3 {
   nav ul li:nth-child(3) a {
     display: none;
   }
-  nav {
-    text-align: center;
+  nav ul li a {
+    padding-left: -100px;
   }
 }
