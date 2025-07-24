@@ -19,6 +19,9 @@
   font-weight: 600px;
   font-size: 1rem;
 }
+.dis {
+  display: hide;
+}
 
 /* header */
 header nav {
@@ -94,7 +97,16 @@ nav ul li:nth-last-child(4) a {
   nav ul li:nth-child(3) a {
     display: none;
   }
-  nav ul li a {
-    padding-left: -100px;
+  .banner {
+    flex-direction: column-reverse;
+  }
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin: 20px 15px;
+  }
+  .cards img {
+    width: 100%;
+    height: auto;
   }
 }
