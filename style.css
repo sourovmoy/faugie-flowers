@@ -277,7 +277,6 @@ nav ul li:nth-last-child(4) a {
 /* Media Query */
 @media screen and (max-width: 576px) {
   * {
-    padding: 2px;
     box-sizing: border-box;
   }
 
@@ -288,6 +287,7 @@ nav ul li:nth-last-child(4) a {
   }
   .banner {
     flex-direction: column-reverse;
+    padding: 2px;
   }
   .cards {
     grid-template-columns: repeat(2, 1fr);
@@ -302,6 +302,7 @@ nav ul li:nth-last-child(4) a {
     flex-direction: column;
     display: block;
     align-items: center;
+    padding: 2px;
   }
   .trusted-seller img {
     width: 100%;
@@ -328,13 +329,21 @@ nav ul li:nth-last-child(4) a {
   .deal {
     min-height: 180px;
   }
+  .zado {
+    height: 210px;
+  }
   .colorful-brunch {
     padding: 0;
     max-width: 100%;
   }
+  .colorful-brunch h2 {
+    font-size: 2rem;
+  }
+
   .footer-nav {
     flex-direction: column;
     width: 100%;
+    padding: 2px;
   }
   .footer-nav .middle ul {
     grid-template-columns: repeat(1, 1fr);
