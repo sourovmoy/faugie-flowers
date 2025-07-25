@@ -178,7 +178,7 @@ nav ul li:nth-last-child(4) a {
   border-radius: 10px;
   background-size: cover;
   background-position: center;
-  padding: 15px;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -257,6 +257,11 @@ nav ul li:nth-last-child(4) a {
 
 /* Media Query */
 @media screen and (max-width: 576px) {
+  * {
+    padding: 2px;
+    box-sizing: border-box;
+  }
+
   nav ul li:nth-child(1) a,
   nav ul li:nth-child(2) a,
   nav ul li:nth-child(3) a {
@@ -297,7 +302,7 @@ nav ul li:nth-last-child(4) a {
     flex-direction: column;
     width: 100%;
     height: auto;
-    margin: 0 10px;
+
     min-height: 90px;
   }
   .deals-right,
@@ -307,7 +312,6 @@ nav ul li:nth-last-child(4) a {
 
   .footer-nav {
     flex-direction: column;
-    margin: 0 10px;
     width: 100%;
   }
   .footer-nav .middle ul {
