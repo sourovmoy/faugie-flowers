@@ -202,14 +202,29 @@ nav ul li:nth-last-child(4) a {
 .colorful-brunch {
   background-image: url(images/news-letter-bg.png);
   width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  text-align: center;
+
   height: 533px;
   position: relative;
+  margin-top: 150px;
+}
+.brunch-text {
+}
+.btn {
+  background: #e95a08;
+  color: #ffffff;
+  font-weight: 600;
+  border: none;
+  padding: 15px 50px;
 }
 
 .colorful-brunch h2 {
-  font-size: 3.125rem;
+  font-size: 3rem;
   font-weight: 700;
   color: #ffffff;
   margin-bottom: 30px;
@@ -217,7 +232,11 @@ nav ul li:nth-last-child(4) a {
 .colorful-brunch form {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+
+  border: none;
+}
+.colorful-brunch input {
+  width: 100%;
 }
 
 /* footer-nav */
@@ -309,7 +328,10 @@ nav ul li:nth-last-child(4) a {
   .deal {
     min-height: 180px;
   }
-
+  .colorful-brunch {
+    padding: 0;
+    max-width: 100%;
+  }
   .footer-nav {
     flex-direction: column;
     width: 100%;
