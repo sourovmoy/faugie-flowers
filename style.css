@@ -22,7 +22,17 @@
 .display-none {
   display: none;
 }
-
+.btn:hover,
+.btn1:hover {
+  background: #7b7706;
+  color: #ffffff;
+  width: 100%;
+  padding: 10px auto;
+  font-size: 1.1rem;
+}
+#badge:hover {
+  transform: rotate(360deg) scale(125%);
+}
 /* header */
 header nav {
   display: flex;
@@ -111,6 +121,7 @@ nav ul li:nth-last-child(4) a {
   width: 25%;
   top: -140px;
   left: 370px;
+  transition: transform 2s;
 }
 .trusted-seller .right {
   align-items: center;
@@ -178,7 +189,6 @@ nav ul li:nth-last-child(4) a {
   border-radius: 10px;
   background-size: cover;
   background-position: center;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -337,7 +347,7 @@ nav ul li:nth-last-child(4) a {
     max-width: 100%;
   }
   .colorful-brunch h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .footer-nav {
